@@ -1,0 +1,22 @@
+{
+  "/api/clientes": {
+    "target": "http://localhost:8097",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/productos": {
+    "target": "http://localhost:8098",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/facturas": {
+    "target": "http://localhost:8099",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/envios": {
+    "target": "http://localhost:8100",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
